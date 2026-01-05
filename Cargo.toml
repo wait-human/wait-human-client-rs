@@ -1,0 +1,23 @@
+[package]
+name = "wait-human"
+version = "0.1.0"
+edition = "2021"
+authors = ["Giovanni", "WaitHuman Team"]
+description = "Rust client library for WaitHuman - pause execution and request human input on demand"
+license-file = "LICENSE"
+repository = "https://github.com/wait-human/wait-human-client-rs"
+homepage = "https://waithuman.com"
+readme = "README.md"
+keywords = ["human-in-loop", "confirmation", "approval", "async", "api-client"]
+categories = ["api-bindings", "asynchronous"]
+
+[dependencies]
+reqwest = { version = "0.12", features = ["json"] }
+tokio = { version = "1.49", features = ["time", "macros", "rt-multi-thread"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+thiserror = "2.0"
+
+[build-dependencies]
+regex = "1.11"

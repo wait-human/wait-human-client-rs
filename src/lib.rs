@@ -48,6 +48,7 @@
 
 mod client;
 mod error;
+#[rustfmt::skip]
 mod shared_types;
 mod types;
 

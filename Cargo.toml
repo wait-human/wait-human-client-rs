@@ -1,6 +1,6 @@
 [package]
 name = "wait-human"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Giovanni", "WaitHuman Team"]
 description = "Rust client library for WaitHuman - pause execution and request human input on demand"

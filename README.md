@@ -3,7 +3,6 @@
 A Rust client library for [WaitHuman](https://waithuman.com) - pause execution and request human input or confirmation on demand.
 
 [![Crates.io](https://img.shields.io/crates/v/wait-human.svg)](https://crates.io/crates/wait-human)
-[![Documentation](https://docs.rs/wait-human/badge.svg)](https://docs.rs/wait-human)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Features
@@ -164,6 +163,7 @@ match client.ask_free_text("Question?", None::<&str>, None).await {
 ```
 
 Error types include:
+
 - `Timeout` - Request exceeded timeout
 - `NetworkError` - Network connectivity issues
 - `CreateFailed` - Failed to create confirmation
@@ -186,7 +186,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Links
 
-- [Documentation](https://docs.rs/wait-human)
 - [Crates.io](https://crates.io/crates/wait-human)
-- [Repository](https://github.com/your-org/wait-human-client-rs)
+- [Repository](https://github.com/wait-human/wait-human-client-rs)
 - [WaitHuman Homepage](https://waithuman.com)
